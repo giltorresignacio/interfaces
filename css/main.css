@@ -1,0 +1,524 @@
+/* Pantalla de moviles */
+@media (max-width : 319px) {
+    #wrapper {
+        display: block !important;
+    }
+    .menu ul hr{
+        margin-right: 30px;
+    }
+    header {
+        text-align: center !important;
+    }
+
+    .elementosNavbar {
+        display: none !important;
+    }
+
+    .carrousel img {
+        width: 300px !important;
+        margin: 20px !important;
+    }
+
+    .logo img {
+        height: 60px !important;
+        margin-top: 20px;
+    }
+
+    .loMasVendido {
+        height: 300px !important;
+        font-size: 12px;
+    }
+
+    .loMasVendido button {
+        font-size: 12px !important;
+    }
+
+    .imagenesMasVendidas {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .loMasVendido div:nth-child(2),
+    .loMasVendido div:nth-child(3),
+    .loMasVendido div:nth-child(4),
+    .loMasVendido div:nth-child(5),
+    .loMasVendido div:nth-child(6) {
+        display: none;
+    }
+
+    .elementosNavbar input {
+        display: none;
+
+    }
+
+    .nosotrosSomos {
+        width: 300px !important;
+
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 4fr !important;
+        justify-items: center;
+
+    }
+
+    .corazon {
+        width: 200px !important;
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+
+    }
+
+    .tarjetaUno {
+        width: 250px !important;
+        grid-column: 1 !important;
+        grid-row: 3 !important;
+
+    }
+
+    .divNosotros {
+        font-size: 24px !important;
+        grid-column: 1 !important;
+        grid-row: 2 !important;
+
+    }
+
+    .tarjetaDos {
+        width: 250px !important;
+        grid-column: 1 !important;
+        grid-row: 4 !important;
+    }
+
+    .nosotrosSomos div button {
+        width: 200px !important;
+        height: 50px;
+        font-size: 24px !important;
+    }
+
+    .linksFooter {
+        display: none !important;
+    }
+}
+/* Pantalla de tablets */
+@media (min-width: 320px) and (max-width: 719px) {
+    #wrapper {
+        display: block !important;
+    }
+    .menu ul hr{
+        margin-right: 30px;
+    }
+
+    header {
+        text-align: center !important;
+    }
+
+    .elementosNavbar {
+        display: none !important;
+
+    }
+
+    .carrousel img {
+        width: 300px !important;
+        margin: 20px !important;
+    }
+
+    .logo img {
+        margin-top: 20px;
+        height: 60px;
+    }
+
+    .loMasVendido {
+        height: 300px !important;
+        font-size: 12px;
+    }
+
+    .loMasVendido button {
+        font-size: 12px !important;
+    }
+
+    .imagenesMasVendidas {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+
+    .loMasVendido div:nth-child(3),
+    .loMasVendido div:nth-child(4),
+    .loMasVendido div:nth-child(5),
+    .loMasVendido div:nth-child(6) {
+        display: none;
+    }
+
+    .elementosNavbar input {
+        display: none;
+        margin-right: 50px !important;
+    }
+
+    .nosotrosSomos {
+        width: 300px !important;
+
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 4fr !important;
+        justify-items: center;
+
+    }
+
+    .corazon {
+        width: 200px !important;
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+
+    }
+
+    .tarjetaUno {
+        width: 250px !important;
+        grid-column: 1 !important;
+        grid-row: 3 !important;
+
+    }
+
+    .divNosotros {
+        font-size: 24px !important;
+        grid-column: 1 !important;
+        grid-row: 2 !important;
+
+    }
+
+    .tarjetaDos {
+        width: 250px !important;
+        grid-column: 1 !important;
+        grid-row: 4 !important;
+
+
+    }
+
+    .nosotrosSomos div button {
+        width: 200px !important;
+        height: 50px;
+        font-size: 24px !important;
+    }
+
+    .linksFooter {
+        display: none !important;
+    }
+}
+/* Pantalla de portatiles */
+@media (min-width: 720px) and (max-width: 1199px) {
+    .carrousel img {
+        width: 700px !important;
+        margin: 20px !important;
+    }
+
+    .logo {
+        margin-left: 20px !important;
+
+    }
+
+    .logo img {
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    .loMasVendido {
+        height: 1400px !important;
+    }
+
+    .elementosNavbar input {
+        display: none;
+        margin-right: 50px !important;
+
+    }
+
+    .elementosNavbar {
+
+        margin-right: 20px !important;
+    }
+
+    .nosotrosSomos {
+        width: 700px !important;
+
+    }
+
+    .corazon {
+        width: 200px !important;
+
+    }
+
+    .tarjetaUno {
+        width: 250px !important;
+    }
+
+    .divNosotros {
+        font-size: 24px !important;
+    }
+
+    .tarjetaDos {
+        width: 250px !important;
+
+    }
+
+    .nosotrosSomos div button {
+        width: 200px !important;
+        height: 50px;
+        font-size: 24px !important;
+    }
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Parte del header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #D3F58B;
+    height: 100px;
+}
+
+.logo {
+    flex-grow: 2;
+    margin-left: 50px;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+.elementosNavbar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.elementosNavbar a {
+    margin-left: 20px;
+}
+
+.elementosNavbar input {
+    margin-right: 75px;
+    margin-left: 50px;
+    height: 20px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Elementos body */
+.carrousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel img {
+    width: 1200px;
+    margin: 50px;
+}
+
+fieldset {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid black;
+}
+
+legend {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.loMasVendido {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fdf4f4;
+    margin: 50px;
+}
+
+.loMasVendido div {
+    text-align: center;
+}
+
+.imagenesMasVendidas {
+    width: 300px;
+    height: 300px;
+}
+
+.loMasVendido div button {
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #e5c0cd;
+    border-radius: 20px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nosotrosSomos {
+    height: auto;
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.corazon {
+    width: 400px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.tarjetaUno {
+    display: grid;
+    grid-column: 1;
+    width: 400px;
+    grid-row: 2;
+}
+
+.divNosotros {
+    display: grid;
+    grid-column: 2;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    grid-row: 1;
+    font-size: 32px;
+}
+
+.tarjetaDos {
+    display: grid;
+    grid-column: 2;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    grid-row: 2;
+}
+
+.containerSobreNosotros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotrosSomos div button {
+    padding: 5px;
+    color: white;
+    background-color: #D3F58B;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Elementos del footer*/
+footer {
+    background-color: #D3F58B;
+    height: 250px;
+}
+
+.logosFooter {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.linksFooter {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.linksFooter a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.linksFooter button {
+    margin-left: 50px;
+
+}
+
+.buscar {
+    padding: 5px;
+    font-size: 14px;
+    color: #D3F58B;
+    background-color: black;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer div p {
+    text-align: center;
+}
+
+/*Elementos NavBar desplegable*/
+#wrapper {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+label {
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #D3F58B;
+    width: 240px;
+    height: 100%;
+    transform: translate3d(-240px, 0, 0);
+    transition: transform 0.35s;
+}
+
+.menu label.menu-toggle {
+    position: absolute;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    line-height: 0px;
+    display: block;
+    padding: 0;
+    text-indent: -9999px;
+    background: #D3F58B url(https://64.media.tumblr.com/3db3979ca60920cba2f2b75c90f61d2e/3c4db064266c7aee-74/s540x810/14f3d7330feed4ad2fe09ab7cd3a74b56dc25822.pnj) 50% 50%/50px 50px no-repeat;
+}
+
+.menu ul li {
+    display: block;
+    text-align: center;
+    padding-right: 40px;
+    line-height: 60px;
+}
+
+/* fade in checked menu */
+.menu-checkbox:checked+.menu {
+    transform: translate3d(0, 0, 0);
+}
